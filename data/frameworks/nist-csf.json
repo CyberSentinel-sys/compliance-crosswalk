@@ -1,0 +1,25 @@
+{
+  "_note": "Illustrative public subset. Subcategory IDs plus short paraphrased titles written for this project — NOT the copyrighted framework text. Not authoritative.",
+  "framework": "NIST CSF 2.0",
+  "requirements": [
+    { "id": "GV.RR-01", "title": "Cybersecurity roles & responsibilities established" },
+    { "id": "ID.AM-01", "title": "Hardware asset inventory maintained" },
+    { "id": "ID.AM-02", "title": "Software asset inventory maintained" },
+    { "id": "ID.RA-01", "title": "Vulnerabilities identified & recorded" },
+    { "id": "PR.AA-01", "title": "Identities & credentials managed" },
+    { "id": "PR.AA-03", "title": "Users & devices authenticated" },
+    { "id": "PR.AA-05", "title": "Access permissions enforced (least privilege)" },
+    { "id": "PR.DS-01", "title": "Data-at-rest protected" },
+    { "id": "PR.DS-02", "title": "Data-in-transit protected" },
+    { "id": "PR.IR-01", "title": "Networks & environments protected from unauthorized access" },
+    { "id": "PR.PS-01", "title": "Configuration management practices established" },
+    { "id": "PR.PS-05", "title": "Unauthorized software installation prevented" },
+    { "id": "DE.CM-01", "title": "Networks & services monitored" },
+    { "id": "DE.CM-09", "title": "Computing hardware & software monitored" },
+    { "id": "DE.AE-02", "title": "Detected events analyzed" },
+    { "id": "RS.MA-01", "title": "Incident response plan executed" },
+    { "id": "RS.AN-03", "title": "Incident analysis performed" },
+    { "id": "RC.RP-01", "title": "Recovery plan executed" },
+    { "id": "RC.RP-03", "title": "Backups verified during recovery" }
+  ]
+}

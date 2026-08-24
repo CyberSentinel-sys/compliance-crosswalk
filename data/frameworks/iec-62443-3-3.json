@@ -1,0 +1,27 @@
+{
+  "_note": "Illustrative public subset. Requirement IDs plus short paraphrased titles written for this project — NOT the copyrighted standard text. Not authoritative.",
+  "framework": "IEC 62443-3-3",
+  "requirements": [
+    { "id": "SR 1.1", "title": "Human user identification & authentication" },
+    { "id": "SR 1.2", "title": "Software process & device identification & authentication" },
+    { "id": "SR 1.5", "title": "Authenticator management" },
+    { "id": "SR 1.7", "title": "Strength of password-based authentication" },
+    { "id": "SR 1.13", "title": "Access via untrusted networks" },
+    { "id": "SR 2.1", "title": "Authorization enforcement" },
+    { "id": "SR 2.8", "title": "Auditable events" },
+    { "id": "SR 2.9", "title": "Audit storage capacity" },
+    { "id": "SR 3.1", "title": "Communication integrity" },
+    { "id": "SR 3.2", "title": "Malicious code protection" },
+    { "id": "SR 3.4", "title": "Software & information integrity" },
+    { "id": "SR 3.8", "title": "Session integrity" },
+    { "id": "SR 4.1", "title": "Information confidentiality" },
+    { "id": "SR 5.1", "title": "Network segmentation" },
+    { "id": "SR 5.2", "title": "Zone boundary protection" },
+    { "id": "SR 6.1", "title": "Audit log accessibility" },
+    { "id": "SR 6.2", "title": "Continuous monitoring" },
+    { "id": "SR 7.1", "title": "Denial-of-service protection" },
+    { "id": "SR 7.3", "title": "Control system backup" },
+    { "id": "SR 7.4", "title": "Control system recovery & reconstitution" },
+    { "id": "SR 7.6", "title": "Network & security configuration settings" }
+  ]
+}

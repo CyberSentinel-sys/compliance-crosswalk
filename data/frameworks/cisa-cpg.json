@@ -1,0 +1,24 @@
+{
+  "_note": "Illustrative public subset. CPG IDs plus short paraphrased titles written for this project — NOT the full published goal text. Not authoritative.",
+  "framework": "CISA Cross-Sector Cybersecurity Performance Goals",
+  "requirements": [
+    { "id": "1.A", "title": "Detecting relevant threats & TTPs" },
+    { "id": "2.A", "title": "Changing default passwords" },
+    { "id": "2.B", "title": "Minimum strong password strength" },
+    { "id": "2.C", "title": "Unique credentials" },
+    { "id": "2.E", "title": "Separating user & privileged accounts" },
+    { "id": "2.F", "title": "Network segmentation" },
+    { "id": "2.H", "title": "Phishing-resistant multifactor authentication" },
+    { "id": "2.K", "title": "Strong & agile encryption in transit" },
+    { "id": "2.Q", "title": "Managing hardware & software asset inventory" },
+    { "id": "2.T", "title": "Vulnerability management" },
+    { "id": "2.V", "title": "Limiting OT connections to public internet" },
+    { "id": "2.W", "title": "Log collection" },
+    { "id": "2.X", "title": "Secure log storage" },
+    { "id": "3.A", "title": "Detection of unsuccessful (automated) login attempts" },
+    { "id": "4.C", "title": "Deploying security.txt / vulnerability disclosure" },
+    { "id": "5.A", "title": "Incident reporting" },
+    { "id": "5.B", "title": "Incident response plans" },
+    { "id": "7.A", "title": "System backups" }
+  ]
+}

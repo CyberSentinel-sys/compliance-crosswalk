@@ -1,0 +1,113 @@
+{
+  "_note": "ILLUSTRATIVE STARTER MAPPING — bring your own. This is a hand-written public-reference crosswalk for demonstration only. It is NOT Wardhelm's product mapping, NOT authoritative, and NOT a compliance certification. Requirement IDs reference the illustrative public subsets in data/frameworks/. Verify and extend before any real use.",
+  "_schema": "control_id -> { framework_key -> [requirement_id, ...] }",
+
+  "asset-inventory": {
+    "iec-62443": ["SR 7.6"],
+    "nist-800-82": ["CM-8", "CM-2"],
+    "nist-csf": ["ID.AM-01", "ID.AM-02"],
+    "cisa-cpg": ["2.Q"]
+  },
+  "network-segmentation": {
+    "iec-62443": ["SR 5.1", "SR 5.2"],
+    "nist-800-82": ["SC-7", "AC-4"],
+    "nist-csf": ["PR.IR-01"],
+    "cisa-cpg": ["2.F"]
+  },
+  "remote-access-mfa": {
+    "iec-62443": ["SR 1.1", "SR 1.13"],
+    "nist-800-82": ["AC-17", "IA-2"],
+    "nist-csf": ["PR.AA-03"],
+    "cisa-cpg": ["2.H"]
+  },
+  "identity-authentication": {
+    "iec-62443": ["SR 1.2", "SR 1.5"],
+    "nist-800-82": ["IA-2", "IA-5"],
+    "nist-csf": ["PR.AA-01", "PR.AA-03"],
+    "cisa-cpg": ["2.C"]
+  },
+  "password-policy": {
+    "iec-62443": ["SR 1.7"],
+    "nist-800-82": ["IA-5"],
+    "nist-csf": ["PR.AA-01"],
+    "cisa-cpg": ["2.A", "2.B"]
+  },
+  "least-privilege": {
+    "iec-62443": ["SR 2.1"],
+    "nist-800-82": ["AC-2"],
+    "nist-csf": ["PR.AA-05"],
+    "cisa-cpg": ["2.E"]
+  },
+  "logging-monitoring": {
+    "iec-62443": ["SR 2.8", "SR 6.1", "SR 6.2"],
+    "nist-800-82": ["AU-2", "SI-4"],
+    "nist-csf": ["DE.CM-01", "DE.CM-09"],
+    "cisa-cpg": ["2.W", "3.A"]
+  },
+  "log-retention": {
+    "iec-62443": ["SR 2.9"],
+    "nist-800-82": ["AU-2"],
+    "nist-csf": ["DE.CM-01"],
+    "cisa-cpg": ["2.X"]
+  },
+  "event-analysis": {
+    "iec-62443": ["SR 6.2"],
+    "nist-800-82": ["AU-6"],
+    "nist-csf": ["DE.AE-02"],
+    "cisa-cpg": ["1.A"]
+  },
+  "vuln-management": {
+    "iec-62443": ["SR 3.4"],
+    "nist-800-82": ["RA-5", "CA-8"],
+    "nist-csf": ["ID.RA-01"],
+    "cisa-cpg": ["2.T"]
+  },
+  "malware-protection": {
+    "iec-62443": ["SR 3.2"],
+    "nist-800-82": ["SI-3"],
+    "nist-csf": ["PR.PS-05"],
+    "cisa-cpg": []
+  },
+  "encryption-in-transit": {
+    "iec-62443": ["SR 3.1", "SR 4.1"],
+    "nist-800-82": ["AC-4"],
+    "nist-csf": ["PR.DS-02"],
+    "cisa-cpg": ["2.K"]
+  },
+  "encryption-at-rest": {
+    "iec-62443": ["SR 4.1"],
+    "nist-800-82": [],
+    "nist-csf": ["PR.DS-01"],
+    "cisa-cpg": []
+  },
+  "backup-recovery": {
+    "iec-62443": ["SR 7.3", "SR 7.4"],
+    "nist-800-82": ["CP-9", "CP-10"],
+    "nist-csf": ["RC.RP-01", "RC.RP-03"],
+    "cisa-cpg": ["7.A"]
+  },
+  "incident-response": {
+    "iec-62443": [],
+    "nist-800-82": ["IR-4", "IR-8"],
+    "nist-csf": ["RS.MA-01", "RS.AN-03"],
+    "cisa-cpg": ["5.A", "5.B"]
+  },
+  "config-management": {
+    "iec-62443": ["SR 7.6"],
+    "nist-800-82": ["CM-2"],
+    "nist-csf": ["PR.PS-01"],
+    "cisa-cpg": []
+  },
+  "ot-internet-isolation": {
+    "iec-62443": ["SR 5.2", "SR 7.1"],
+    "nist-800-82": ["SC-7"],
+    "nist-csf": ["PR.IR-01"],
+    "cisa-cpg": ["2.V"]
+  },
+  "security-awareness": {
+    "iec-62443": [],
+    "nist-800-82": ["AT-2"],
+    "nist-csf": ["GV.RR-01"],
+    "cisa-cpg": []
+  }
+}

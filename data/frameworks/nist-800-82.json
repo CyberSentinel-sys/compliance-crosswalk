@@ -1,0 +1,26 @@
+{
+  "_note": "Illustrative public subset. Requirement IDs plus short paraphrased titles written for this project — NOT the copyrighted publication text. Not authoritative.",
+  "framework": "NIST SP 800-82 (ICS/OT security)",
+  "requirements": [
+    { "id": "AC-2", "title": "Account management for OT systems" },
+    { "id": "AC-4", "title": "Information flow / conduit enforcement" },
+    { "id": "AC-17", "title": "Remote access to OT environments" },
+    { "id": "AU-2", "title": "Event logging" },
+    { "id": "AU-6", "title": "Audit review, analysis & reporting" },
+    { "id": "CA-8", "title": "Penetration testing / assessment" },
+    { "id": "CM-2", "title": "Baseline configuration" },
+    { "id": "CM-8", "title": "System component (asset) inventory" },
+    { "id": "CP-9", "title": "System backup" },
+    { "id": "CP-10", "title": "System recovery & reconstitution" },
+    { "id": "IA-2", "title": "Identification & authentication of users" },
+    { "id": "IA-5", "title": "Authenticator (credential) management" },
+    { "id": "IR-4", "title": "Incident handling" },
+    { "id": "IR-8", "title": "Incident response plan" },
+    { "id": "RA-5", "title": "Vulnerability monitoring & scanning" },
+    { "id": "SC-7", "title": "Boundary protection / segmentation" },
+    { "id": "SI-3", "title": "Malicious code protection" },
+    { "id": "SI-4", "title": "System monitoring" },
+    { "id": "PE-3", "title": "Physical access control" },
+    { "id": "AT-2", "title": "Security awareness training" }
+  ]
+}

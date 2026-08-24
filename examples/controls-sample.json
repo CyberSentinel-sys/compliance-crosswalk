@@ -1,0 +1,12 @@
+{
+  "_comment": "Sample 'controls in place' input for a mid-maturity OT operator. Deliberately a partial set, so the report shows both coverage and real gaps. Bare-list form is also accepted (just a JSON array of control ids).",
+  "controls_in_place": [
+    "asset-inventory",
+    "network-segmentation",
+    "remote-access-mfa",
+    "identity-authentication",
+    "logging-monitoring",
+    "backup-recovery",
+    "ot-internet-isolation"
+  ]
+}
